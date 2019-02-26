@@ -1,0 +1,44 @@
+
+
+*{box-sizing: border-box;}
+
+
+.home{
+	padding:40px;
+	
+}
+
+a.indexlinks { font-family:"Helvetica";font-size: 20px;line-height:1.5;text-decoration: none; color:black; letter-spacing: .05em }
+a.indexlinks:visited { text-decoration: none; color:black; }
+a.indexlinks:hover { text-decoration: underline; color:black;}
+a.indexlinks:active { text-decoration: none; color:black; }
+
+.tip{
+	display: none;
+	color: blue;
+}
+
+
+div.gallery {
+	width:1100px;
+}
+
+
+div.galleryentry-1col {
+	width: 25%;
+	padding:20px;
+}
+
+div.galleryentry-1col img
+{
+	width: 100%;
+}
+
+@media all and (max-width: 900px){
+	
+	.gallery {
+		width: 500px;
+		
+	}
+
+
