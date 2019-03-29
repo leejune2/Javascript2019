@@ -1,0 +1,42 @@
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+      	width: 75%;
+        height: 100%;
+      }
+
+      #responseImagesHere {
+        width: 20%;
+  
+/*        border: 2px solid black;
+*/        position:fixed;
+        top:20px;        
+        padding-left:10px;
+        left:75%;
+
+      }
+/*
+      #responseImagesHere:click{
+        display:none;
+        border: red;
+      }*/
+
+      #responseImagesHere img{
+        width:100%;
+    
+
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      div body {
+        display: inline;
+      }
+
+/*      #filter {display: inline-block;}*/
